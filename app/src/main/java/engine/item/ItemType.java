@@ -1,6 +1,6 @@
-package Engine;
+package engine.item;
 
-import static Engine.ItemCategory.CURRENCY;
+import static engine.item.ItemCategory.CURRENCY;
 
 public enum ItemType {
 
@@ -9,7 +9,7 @@ public enum ItemType {
     SILVER(1, "Silver", CURRENCY, null, null),
 
     // Weapons
-    WOODEN_SWORD(100, "Wooden Sword", ItemCategory.WEAPON, null, "A simple sword made out of wood."),
+    WOODEN_SWORD(100, "Wooden Sword", ItemCategory.WEAPON, null, "A simple sword made out of wood.");
 
 
 

@@ -1,4 +1,4 @@
-package Engine;
+package engine.item;
 
 public enum ItemCategory {
     WEAPON (1, 1),
