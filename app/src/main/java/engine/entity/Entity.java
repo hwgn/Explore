@@ -17,7 +17,7 @@ public class Entity {
         this.position = position;
     }
 
-    public void move(int dx, int dy, int dz) {
-        position = position.move(dx, dy, dz);
+    public void move(int dx, int dy) {
+        position = position.move(dx, dy);
     }
 }
